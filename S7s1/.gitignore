@@ -1,0 +1,49 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Carpetas de build (Ant)
+build/
+dist/
+out/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de Ant
+ant.properties
+
+# Archivos generados por ejecución
+hs_err_pid*
+
+# IDEs comunes
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Archivos de entorno
+.env
