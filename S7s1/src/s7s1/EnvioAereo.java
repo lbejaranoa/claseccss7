@@ -12,7 +12,7 @@ public class EnvioAereo implements TipoEnvio{
 
     @Override
     public double calcular(double peso) {
-        return 100+peso*20;
+        return 100+peso*20-100;
     }
     
 }
