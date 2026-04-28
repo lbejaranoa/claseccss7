@@ -11,7 +11,7 @@ package s7s1;
 public class CalculoEnvio {
     public static double calcularEnvio (String tipoEnvio, double peso){
         if(tipoEnvio.equals("normal")){
-            return 10+ peso*1.5;
+            return 10+ peso*2;
         }
         else if(tipoEnvio.equals("express")){
             return 20+peso*3;
